@@ -32,7 +32,9 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 # Register the geo check blueprint
 app.register_blueprint(geo_bp)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///spiko.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///spiko.db')
+if app.config['SQLALCHEMY_DATABASE_URI'].startswith('postgres://'):
+    app.config['SQLALCHEMY_DATABASE_URI'] = app.config['SQLALCHEMY_DATABASE_URI'].replace('postgres://', 'postgresql://', 1)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'spiko-secret-key-for-jwt-tokens-2024')
 
@@ -502,5 +504,11 @@ def check_telegram_subscription_endpoint(user_id):
         print(f"Error checking Telegram subscription: {e}")
         return {"error": "Failed to check subscription status."}, 500
 
+# Add health check endpoint for Railway
+@app.route('/api/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "healthy", "service": "spiko-backend"}), 200
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False)
+
