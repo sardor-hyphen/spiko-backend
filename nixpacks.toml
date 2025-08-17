@@ -1,0 +1,3 @@
+# nixpacks.toml
+[build]
+  python = "3.12"  # Specify the desired Python version
