@@ -1,0 +1,27 @@
+{
+    "session_id": "session_2",
+    "title": "Work & Study",
+    "keywords": "Jobs, career, education, university",
+    "part1": [
+        "Do you work or are you a student?",
+        "What is your major/What are your main responsibilities?",
+        "What is the most interesting part of your work/studies?",
+        "What kind of work would you like to do in the future?"
+    ],
+    "part2": {
+        "cue_card_topic": "Describe a job you would like to have in the future.",
+        "cue_card_points": [
+            "You should say:",
+            "what the job is",
+            "what skills and qualifications you would need for this job",
+            "what the daily responsibilities would be",
+            "and explain why you are interested in this job."
+        ]
+    },
+    "part3": [
+        "What are the most popular jobs for young people in your country?",
+        "Do you think it's more important to have a high salary or to have a job you enjoy?",
+        "How has technology changed the way people work in the last 10 years?",
+        "What is the impact of artificial intelligence on the future of work?"
+    ]
+}

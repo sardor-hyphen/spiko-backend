@@ -1,0 +1,26 @@
+{
+  "session_id": "session_14",
+  "title": "Shopping & Fashion",
+  "keywords": "Clothes, trends, consumer habits",
+  "part1": [
+    "Do you enjoy shopping?",
+    "What kind of clothes do you like to wear?",
+    "How often do you buy new clothes?",
+    "Are fashion trends important to you?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a memorable shopping experience.",
+    "cue_card_points": [
+      "You should say:",
+      "where you went shopping",
+      "what you bought",
+      "who you were with",
+      "and explain why it was memorable."
+    ]
+  },
+  "part3": [
+    "How has shopping changed in recent years?",
+    "What are the advantages and disadvantages of online shopping?",
+    "Do you think people spend too much money on clothes?"
+  ]
+}

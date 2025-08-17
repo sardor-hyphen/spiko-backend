@@ -1,0 +1,26 @@
+{
+  "session_id": "session_10",
+  "title": "Health & Fitness",
+  "keywords": "Exercise, diet, well-being",
+  "part1": [
+    "Do you exercise regularly?",
+    "What kind of food do you like to eat?",
+    "How important is health to you?",
+    "What do people in your country do to stay healthy?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a sport or physical activity you enjoy.",
+    "cue_card_points": [
+      "You should say:",
+      "what the activity is",
+      "how often you do it",
+      "who you do it with",
+      "and explain why you enjoy it."
+    ]
+  },
+  "part3": [
+    "What are the benefits of regular exercise?",
+    "How can people be encouraged to live healthier lives?",
+    "Do you think technology has affected people's health?"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "session_id": "session_11",
+  "title": "Food & Cooking",
+  "keywords": "Cuisine, recipes, eating habits",
+  "part1": [
+    "What is your favorite food?",
+    "Do you like cooking?",
+    "How often do you eat out?",
+    "What kind of food is popular in your country?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a dish you enjoy cooking or eating.",
+    "cue_card_points": [
+      "You should say:",
+      "what the dish is",
+      "how to prepare it",
+      "when you usually eat it",
+      "and explain why you like it."
+    ]
+  },
+  "part3": [
+    "How have people's eating habits changed over time?",
+    "What are the advantages and disadvantages of fast food?",
+    "Do you think people should eat more healthy food?"
+  ]
+}

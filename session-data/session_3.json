@@ -1,0 +1,27 @@
+{
+    "session_id": "session_3",
+    "title": "Technology & The Internet",
+    "keywords": "Smartphones, social media, AI, online",
+    "part1": [
+        "How often do you use the internet?",
+        "What are your favorite websites or apps?",
+        "Do you think you use your mobile phone too much?",
+        "How has the internet changed your life?"
+    ],
+    "part2": {
+        "cue_card_topic": "Describe a time you were frustrated by a piece of technology.",
+        "cue_card_points": [
+            "You should say:",
+            "what piece of technology it was",
+            "when and where this happened",
+            "what the problem was",
+            "and explain how you felt about the experience."
+        ]
+    },
+    "part3": [
+        "Do you think older people are afraid of new technology?",
+        "What are the advantages and disadvantages of children using smartphones?",
+        "How can people protect their personal information online?",
+        "Will artificial intelligence be more intelligent than humans in the future?"
+    ]
+}

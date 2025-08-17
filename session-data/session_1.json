@@ -1,0 +1,26 @@
+{
+    "session_id": "session_1",
+    "title": "Hobbies & Interests",
+    "keywords": "Sports, free time, creativity",
+    "part1": [
+        "Let's talk about your free time. What do you enjoy doing?",
+        "How did you become interested in that hobby?",
+        "What kind of hobbies are popular in your country?",
+        "Do you think it's important for people to have hobbies?"
+    ],
+    "part2": {
+        "cue_card_topic": "Describe a hobby you enjoy.",
+        "cue_card_points": [
+            "You should say:",
+            "what the hobby is",
+            "how long you have been doing it",
+            "who you do it with",
+            "and explain why you enjoy this hobby."
+        ]
+    },
+    "part3": [
+        "Do you think hobbies can have a positive or negative impact on a person's work or studies?",
+        "Some people's hobbies are very dangerous. Why do you think they do them?",
+        "Do you believe that technology has changed the way people spend their free time?"
+    ]
+}

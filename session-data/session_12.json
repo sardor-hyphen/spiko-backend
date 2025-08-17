@@ -1,0 +1,26 @@
+{
+  "session_id": "session_12",
+  "title": "Books & Reading",
+  "keywords": "Literature, authors, reading habits",
+  "part1": [
+    "Do you like reading books?",
+    "What kind of books do you prefer?",
+    "How often do you read?",
+    "Who introduced you to reading?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a book that you enjoyed reading.",
+    "cue_card_points": [
+      "You should say:",
+      "what the book is",
+      "what it is about",
+      "why you liked it",
+      "and explain how it influenced you."
+    ]
+  },
+  "part3": [
+    "How has reading changed with technology?",
+    "What are the benefits of reading books?",
+    "Do you think people read less nowadays?"
+  ]
+}

@@ -1,0 +1,8 @@
+Flask
+requests
+python-dotenv
+PyJWT
+
+Flask-Bcrypt
+Flask-SQLAlchemy
+Flask-Cors

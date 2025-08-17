@@ -1,0 +1,26 @@
+{
+  "session_id": "session_7",
+  "title": "Work & Career",
+  "keywords": "Jobs, employment, career goals",
+  "part1": [
+    "What is your job?",
+    "Why did you choose this career?",
+    "What do you like about your job?",
+    "What are the challenges in your work?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a job you would like to have in the future.",
+    "cue_card_points": [
+      "You should say:",
+      "what the job is",
+      "why you want to do it",
+      "what skills are needed",
+      "and explain why it interests you."
+    ]
+  },
+  "part3": [
+    "How has the workplace changed in recent years?",
+    "What qualities are important for success at work?",
+    "Do you think people will change jobs more often in the future?"
+  ]
+}

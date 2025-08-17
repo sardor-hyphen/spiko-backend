@@ -1,0 +1,26 @@
+{
+  "session_id": "session_13",
+  "title": "Music & Arts",
+  "keywords": "Instruments, painting, creativity",
+  "part1": [
+    "Do you like music?",
+    "What kind of music do you enjoy?",
+    "Have you ever learned to play a musical instrument?",
+    "Do you like going to art galleries or museums?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a musical performance you enjoyed.",
+    "cue_card_points": [
+      "You should say:",
+      "where it was",
+      "who performed",
+      "what kind of music it was",
+      "and explain why you enjoyed it."
+    ]
+  },
+  "part3": [
+    "How important is music in people's lives?",
+    "What role do the arts play in education?",
+    "Do you think music tastes change as people get older?"
+  ]
+}

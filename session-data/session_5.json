@@ -1,0 +1,26 @@
+{
+  "session_id": "session_5",
+  "title": "Travel & Tourism",
+  "keywords": "Vacation, destinations, culture",
+  "part1": [
+    "Do you like to travel?",
+    "What is your favorite place to visit?",
+    "How do people in your country usually travel?",
+    "What are the benefits of traveling?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a memorable trip you have taken.",
+    "cue_card_points": [
+      "You should say:",
+      "where you went",
+      "who you went with",
+      "what you did there",
+      "and explain why it was memorable."
+    ]
+  },
+  "part3": [
+    "How has tourism changed in recent years?",
+    "What impact does tourism have on local communities?",
+    "Do you think people will travel more or less in the future?"
+  ]
+}

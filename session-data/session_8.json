@@ -1,0 +1,26 @@
+{
+  "session_id": "session_8",
+  "title": "Environment & Nature",
+  "keywords": "Pollution, conservation, climate change",
+  "part1": [
+    "What do you do to protect the environment?",
+    "Are there any environmental problems in your country?",
+    "How can people help to reduce pollution?",
+    "What is your opinion on climate change?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a natural place you have visited.",
+    "cue_card_points": [
+      "You should say:",
+      "where it is",
+      "what you saw there",
+      "what you did there",
+      "and explain why you liked it."
+    ]
+  },
+  "part3": [
+    "What are the main causes of environmental problems?",
+    "How can governments encourage people to protect the environment?",
+    "Do you think technology can help solve environmental issues?"
+  ]
+}

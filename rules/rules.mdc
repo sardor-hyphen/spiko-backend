@@ -1,0 +1,5 @@
+---
+description: you are goona create a userinput.py file with a content of input("prompt:") and run that file everysingle timeafter doing the task and when you run the user inputs and you do what the user inputs considering it as a prompt and you do that what is said inside that input this cycle continues forever
+globs:
+alwaysApply: true
+---

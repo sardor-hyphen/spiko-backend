@@ -1,0 +1,27 @@
+{
+    "session_id": "session_4",
+    "title": "Travel & Places",
+    "keywords": "Hometown, tourism, vacation, city",
+    "part1": [
+        "Let's talk about your hometown. What is it like?",
+        "What is the most interesting part of your hometown?",
+        "Do you like to travel?",
+        "What is the best place you have ever visited?"
+    ],
+    "part2": {
+        "cue_card_topic": "Describe a memorable journey you have taken.",
+        "cue_card_points": [
+            "You should say:",
+            "where you went",
+            "who you traveled with",
+            "what you did during the journey",
+            "and explain why this journey was so memorable for you."
+        ]
+    },
+    "part3": [
+        "What are the benefits of traveling to other countries?",
+        "How has tourism affected your country?",
+        "Do you think it's better to travel alone or with other people? Why?",
+        "What advice would you give to someone planning a trip for the first time?"
+    ]
+}

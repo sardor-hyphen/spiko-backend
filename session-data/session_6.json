@@ -1,0 +1,26 @@
+{
+  "session_id": "session_6",
+  "title": "Education & Learning",
+  "keywords": "Schools, studying, knowledge",
+  "part1": [
+    "What was your favorite subject in school?",
+    "Do you prefer studying alone or with others?",
+    "How important is education in your country?",
+    "What changes would you like to see in the education system?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a teacher who has influenced you.",
+    "cue_card_points": [
+      "You should say:",
+      "who the teacher is",
+      "what subject they taught",
+      "how they influenced you",
+      "and explain why they were important to you."
+    ]
+  },
+  "part3": [
+    "How has education changed in recent years?",
+    "What are the advantages and disadvantages of online learning?",
+    "How can education prepare students for the future?"
+  ]
+}

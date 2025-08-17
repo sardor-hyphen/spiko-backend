@@ -1,0 +1,26 @@
+{
+  "session_id": "session_9",
+  "title": "Technology & Innovation",
+  "keywords": "Gadgets, internet, future technology",
+  "part1": [
+    "How often do you use technology?",
+    "What is your favorite gadget?",
+    "How has technology changed communication?",
+    "What are the advantages and disadvantages of technology?"
+  ],
+  "part2": {
+    "cue_card_topic": "Describe a piece of technology you find useful.",
+    "cue_card_points": [
+      "You should say:",
+      "what it is",
+      "how you use it",
+      "how it helps you",
+      "and explain why you find it useful."
+    ]
+  },
+  "part3": [
+    "How do you think technology will develop in the future?",
+    "What impact does technology have on education?",
+    "Do you think people rely too much on technology?"
+  ]
+}
