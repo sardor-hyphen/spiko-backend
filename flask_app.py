@@ -509,6 +509,61 @@ def check_telegram_subscription_endpoint(user_id):
 def health_check():
     return jsonify({"status": "healthy", "service": "spiko-backend"}), 200
 
+# Add these routes before the final if __name__ == '__main__' block
+
+# Serve frontend files
+import os
+from flask import send_from_directory
+
+# Configure Flask to serve static files from frontend directory
+FRONTEND_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'frontend')
+
+@app.route('/')
+def serve_frontend():
+    """Serve the main index.html file"""
+    return send_from_directory(FRONTEND_DIR, 'index.html')
+
+@app.route('/<path:filename>')
+def serve_frontend_files(filename):
+    """Serve any file from the frontend directory"""
+    if filename.startswith('api/'):
+        abort(404)
+    
+    safe_path = os.path.join(FRONTEND_DIR, filename)
+    if os.path.isfile(safe_path):
+        return send_from_directory(FRONTEND_DIR, filename)
+    else:
+        abort(404)
+
+@app.route('/login')
+def serve_login():
+    """Serve login page"""
+    return send_from_directory(FRONTEND_DIR, 'login.html')
+
+@app.route('/progress')
+def serve_progress():
+    """Serve progress page"""
+    progress_path = os.path.join(FRONTEND_DIR, 'progress', 'index.html')
+    if os.path.isfile(progress_path):
+        return send_from_directory(os.path.join(FRONTEND_DIR, 'progress'), 'index.html')
+    return send_from_directory(FRONTEND_DIR, 'index.html')
+
+@app.route('/settings')
+def serve_settings():
+    """Serve settings page"""
+    settings_path = os.path.join(FRONTEND_DIR, 'settings', 'index.html')
+    if os.path.isfile(settings_path):
+        return send_from_directory(os.path.join(FRONTEND_DIR, 'settings'), 'index.html')
+    return send_from_directory(FRONTEND_DIR, 'index.html')
+
+@app.route('/history')
+def serve_history():
+    """Serve history page"""
+    history_path = os.path.join(FRONTEND_DIR, 'history', 'index.html')
+    if os.path.isfile(history_path):
+        return send_from_directory(os.path.join(FRONTEND_DIR, 'history'), 'index.html')
+    return send_from_directory(FRONTEND_DIR, 'index.html')
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False)
 
